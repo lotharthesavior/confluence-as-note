@@ -6,6 +6,8 @@ It also has a Web interface to view and manage notes.
 
 # Quick Start
 
+## CLI Interface
+
 Start the app:
 
 ```bash
@@ -29,4 +31,12 @@ go run main.go -action update -id 123456789 -title "Updated Note" -content "<p>U
 
 # Delete a note
 go run main.go -action delete -id 123456789
+```
+
+## Web Interface
+
+Start the web server:
+
+```bash
+go run main.go -action web
 ```
